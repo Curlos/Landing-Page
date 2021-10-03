@@ -1,0 +1,148 @@
+body {
+  font-family: "Hero Main Text", sans-serif;
+  margin: 0;
+}
+
+.pageContainer {
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #F9FAF8;
+  font-size: 24px;
+  background-color: #1F2937;
+  padding: 50px;
+}
+
+.headerRight {
+  display: flex;
+  gap: 15px;
+}
+
+.header a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.headerInformation {
+  display: flex;
+  justify-content: space-between;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  padding: 50px;
+}
+
+.informationText .title {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+
+.informationText .subtext {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.informationImage {
+  width: 450px;
+  background-color: gray;
+}
+
+.headerInformation button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  padding: 10px 25px 10px 25px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.contentInformation {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contentInformation .title {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+}
+
+.contentInformation .images {
+  display: flex;
+  justify-content: center;
+}
+
+.contentInformation .image {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+}
+
+.imageCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 250px;
+}
+
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  text-align: center;
+  background-color: #E5E7EB;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.quoteContainerContainer {
+  max-width: 50%;
+}
+
+.quoteContainer .quoteText {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.callToActionContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  width: 50%;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 50px auto 50px auto;
+}
+
+.callToActionTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signUpButton {
+  border: 2px solid #E5E7EB;
+  color: #E5E7EB;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+}
+
+.footer {
+  text-align: center;
+  color: #E5E7EB;
+  background-color: #1F2937;
+  padding: 20px;
+}
